@@ -10,6 +10,10 @@ var Book = require('./models/book');
 mongoose.connect('mongodb://localhost/bookstore');
 
 var db = mongoose.connection;
+<<<<<<< HEAD
+=======
+//some master comment here from master
+>>>>>>> branch-1
 //some comment here from branch-1
 app.get('/', function (req, res) {
 	res.send('Please make use of /api/student');

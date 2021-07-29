@@ -10,9 +10,9 @@ var Book = require('./models/book');
 mongoose.connect('mongodb://localhost/bookstore');
 
 var db = mongoose.connection;
-
+//some comment here
 app.get('/', function (req, res) {
-	res.send('Please make use of /api/student');
+	res.send('Please use make of /api/student');
 });
 
 
